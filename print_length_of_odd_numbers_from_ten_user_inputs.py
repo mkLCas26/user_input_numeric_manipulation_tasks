@@ -9,7 +9,8 @@ while counter < 10:
     counter += 1
     ten_numbers = float(input("Enter 10 numbers: "))
 
-    if ten_numbers % 2 != 0:                               # determines odd numbers
+    # Determines odd numbers
+    if ten_numbers % 2 != 0:                               
         odd_numbers.append(ten_numbers)
 
 # Print length of odd numbers
