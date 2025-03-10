@@ -6,8 +6,8 @@ even_numbers = []
 
 # While loop for user input
 while counter < 10:
+    ten_numbers = int(input(f"Enter number {counter + 1}/10: "))
     counter += 1
-    ten_numbers = int(input("Enter 10 numbers: "))
     
     # Determining even numbers
     if ten_numbers % 2 == 0:
