@@ -29,5 +29,5 @@ while True:
             print("Unique") 
 
     except ValueError:
-        print(f"Invalid! {user_input} is not a number. ")
+        print(f"Invalid! {user_input} may not be a number or it is a number list. ")
         break    
