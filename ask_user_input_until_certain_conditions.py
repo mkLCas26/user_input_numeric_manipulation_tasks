@@ -11,13 +11,15 @@ While loop for user input
 
 numbers = []
 duplicate = []
+num = 0
 
 
-try: 
-    user_input = float(input("Enter a number: "))
-    print("tama")
-except ValueError:
-    print(f"Invalid! {user_input} is not a number. ")    
+while True:
+    user_input = (input("\nEnter a number: "))
 
-
-
+    try: 
+        num = float(user_input)
+        print("try, valid!")
+    except ValueError:
+        print(f"Invalid! {user_input} is not a number. ")
+        break    
