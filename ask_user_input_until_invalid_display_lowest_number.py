@@ -4,11 +4,11 @@
 Initialize empty list and needed variable
 While loop for user input
     Try-except for invalid inputs
-    Determining the lowest number in the list
+    Determining the lowest number using if-else
     Displaying the lowest number
 """
 
-numbers = []
+lowest = None
 num = 0
 
 while True: 
@@ -16,14 +16,14 @@ while True:
 
     try:
         num = float(user_input)
-        numbers.append(num)
 
-        for x in numbers:
-            if x > num:
-                print(num)
-            else: 
-                print(x)
+        if lowest == None:
+            lowest = num
+            print(f"Lowest Number: {lowest}")
+        elif num < lowest:
+            num = lowest
+            print(f"Lowest Number: {lowest}")
 
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
-        break 
+        break
