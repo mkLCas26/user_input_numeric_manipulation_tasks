@@ -2,7 +2,6 @@
 
 """
 Initializing empty lists and needed variables
-Initial user input
 While loop for user input 
     Use try to check if use input is a number
     Determining whether to display "Unique" and "Duplicate"
