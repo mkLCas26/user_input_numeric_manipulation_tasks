@@ -6,6 +6,7 @@ Initial user input
 While loop for user input 
     Use try to check if use input is a number
     Determining whether to display "Unique" and "Duplicate"
+        Unique if no dupe and Duplicate if may dupe
 
 """
 
@@ -19,7 +20,14 @@ while True:
 
     try: 
         num = float(user_input)
-        print("try, valid!")
+
+        if num in numbers:
+            duplicate.append(num)
+            print("Duplicate")
+        else: 
+            numbers.append(num)
+            print("Unique") 
+
     except ValueError:
         print(f"Invalid! {user_input} is not a number. ")
         break    
