@@ -7,3 +7,15 @@ While loop for user input
     Determining the lowest number in the list
     Displaying the lowest number
 """
+
+numbers = []
+num = 0
+
+while True: 
+    user_input = input("\nEnter a number: ")
+
+    try:
+        num = float(user_input)
+    except ValueError:
+        print(f"Invalid! {user_input} may not be a number or it is a number list.")
+        break 
