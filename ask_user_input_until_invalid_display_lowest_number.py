@@ -16,6 +16,14 @@ while True:
 
     try:
         num = float(user_input)
+        numbers.append(num)
+
+        for x in numbers:
+            if x > num:
+                print(num)
+            else: 
+                print(x)
+
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
         break 
