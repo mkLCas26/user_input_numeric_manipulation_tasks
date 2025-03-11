@@ -19,10 +19,10 @@ while True:
 
         if lowest == None:
             lowest = num
-            print(f"Lowest Number: {lowest}")
         elif num < lowest:
-            num = lowest
-            print(f"Lowest Number: {lowest}")
+            lowest = num
+        
+        print(f"Lowest Number: {lowest}")
 
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
