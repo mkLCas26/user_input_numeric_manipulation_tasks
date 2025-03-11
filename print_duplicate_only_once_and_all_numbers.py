@@ -2,6 +2,7 @@
 
 # Initialize counter and empty list
 counter = 0
+numbers = []
 duplicate_once = []
 
 # While loop for user input
@@ -11,7 +12,9 @@ while counter < 10:
 
     # Determining duplicate and printing it once
     if user_input in duplicate_once:
-        duplicate_once.remove(user_input)
+        numbers.append(user_input)
+    else: 
+        duplicate_once.append(user_input)
 
 # Print final list of numbers
 print(duplicate_once)
