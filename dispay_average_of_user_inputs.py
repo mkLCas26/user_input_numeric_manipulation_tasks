@@ -8,3 +8,16 @@ While loop for user input
     Getting the average of the list
     Print the average
 """
+
+numbers = []
+num = 0
+sum = 0
+
+while True:
+    user_input = input("\nEnter a number: ")
+    try:
+        num = float(user_input)
+        numbers.append(num)
+        print(numbers)
+    except ValueError:
+        print(f"Invalid! {user_input} may not be a number or it is a number list.")
