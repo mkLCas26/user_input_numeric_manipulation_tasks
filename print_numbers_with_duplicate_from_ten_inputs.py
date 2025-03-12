@@ -10,16 +10,17 @@ Printing numbers with duplicate
 
 counter = 0
 duplicate = []
-no_duplicate = []
+numbers = []
 
 while counter < 10:
     user_input = int(input(f"Enter number {counter +1}/10: "))
-    no_duplicate.append(user_input)
+    numbers.append(user_input)
     counter += 1
 
-for x in no_duplicate:
-    if no_duplicate.count(x) == 1:
+for x in numbers:
+    if numbers.count(x) > 1 and x not in duplicate:
         duplicate.append(x)
+    
 
 print(duplicate)
 
