@@ -12,8 +12,16 @@ highest = None
 num = 0
 
 while True:
+    user_input = input("\nEnter a number: ")
     try:
-        user_input = input("Enter a number: ")
         num = float(user_input)
+
+        if highest == None:
+            highest = num
+        elif num > highest:
+            highest = num   
+        print(f"Highest Number: {highest}")
+
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
+        break
