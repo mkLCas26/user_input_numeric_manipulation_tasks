@@ -8,3 +8,14 @@ While loop for user input
     Use sort() function for the descending order
     Print list of number inputs in descending order
 """
+
+numbers = []
+num = 0
+
+while True:
+    user_input = input("Enter a number: ")
+    try:
+        num = float(user_input)
+        numbers.append(num)
+    except ValueError:
+        print(f"Invalid! {user_input} may not be a number or it is a number list.")
