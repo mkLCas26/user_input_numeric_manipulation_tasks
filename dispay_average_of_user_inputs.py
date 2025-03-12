@@ -18,6 +18,11 @@ while True:
     try:
         num = float(user_input)
         numbers.append(num)
-        print(numbers)
+        
+        for x in numbers:
+            sum += x
+            average = sum / len(numbers)
+        print(f"The current average of your input is: {average}")
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
+        break
