@@ -7,3 +7,14 @@ while loop for user input
     Determining most duplicates from user input
     Print number with most duplicate
 """
+
+numbers = []
+num = 0
+
+while True:
+    user_input = input("\nEnter a number: ")
+    try: 
+        num = float(user_input)
+    except ValueError:
+        print(f"Invalid! {user_input} may not be a number or it is a number list.")
+        break
