@@ -10,8 +10,8 @@ while loop for user input
 
 numbers = []
 num = 0
-num_count = 0
-most_dupli = 0
+max_dupli = 0
+freq_num = 0
 counter = 0
 
 while True:
@@ -22,18 +22,15 @@ while True:
 
         for x in numbers:
             num_count = numbers.count(x)
-            if num_count > most_dupli:
-                most_dupli = x
-                print(f"{most_dupli} has the most duplicates.")
+            if num_count > max_dupli:
+                max_dupli = num_count
+                freq_num = x
+        print(f"{freq_num} has the most duplicates. Duplicate Count: {max_dupli} ")
 
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
         break
 
-# for x in numbers:
-#     num_count = numbers.count(x)
-#     if num_count > most_dupli:
-#         most_dupli = x
 
 
     
