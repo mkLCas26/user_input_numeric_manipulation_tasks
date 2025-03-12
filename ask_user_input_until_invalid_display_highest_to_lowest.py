@@ -17,5 +17,8 @@ while True:
     try:
         num = float(user_input)
         numbers.append(num)
+        numbers.sort()
+        numbers.reverse()
+        print(numbers)
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
