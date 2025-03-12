@@ -2,6 +2,7 @@
 # Print the number with most duplicate.
  
 """
+PSEUDOCODE
 Initialize empty lists or needed variables
 while loop for user input
     Try-except for determining invalid inputs

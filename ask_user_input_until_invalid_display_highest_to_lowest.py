@@ -2,6 +2,7 @@
 # Print input in ascending order. Use sort()
 
 """
+PSEUDOCODE
 Initialize empty lists or needed variables
 While loop for user input
     Try-except for determining invalid inputs

@@ -3,12 +3,12 @@
 # Print "Duplicate" if it is a duplicate
 
 """
+PSEUDOCODE
 Initializing empty lists and needed variables
 While loop for user input 
     Use try to check if use input is a number
     Determining whether to display "Unique" and "Duplicate"
         Unique if no dupe and Duplicate if may dupe
-
 """
 
 numbers = []

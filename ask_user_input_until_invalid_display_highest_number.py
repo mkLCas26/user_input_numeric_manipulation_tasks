@@ -1,6 +1,7 @@
 # B4 Prog03: Ask user number input until invalid. Print highest number.
 
 """
+PSEUDOCODE
 Initialize empty list or needed variables
 While loop for user input
     Try-except to determine invalid inputs

@@ -1,6 +1,7 @@
 #  B4 Prog05: Ask user number input until invalid. Display the average.
 
 """
+PSEUDOCODE
 Initialize empty list or needed variables
 While loop for user input
     Try-except for determining invalid inputs

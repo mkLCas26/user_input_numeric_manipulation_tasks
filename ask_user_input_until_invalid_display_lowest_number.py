@@ -1,6 +1,7 @@
 # B3 Prog04: Ask user number input until invalid. Print lowest number.
 
 """
+PSEUDOCODE
 Initialize empty list and needed variable
 While loop for user input
     Try-except for invalid inputs
