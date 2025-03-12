@@ -7,3 +7,19 @@ While loop for 10 user inputs
 For loop for determining if number is a duplicate
 Printing numbers with duplicate
 """
+
+counter = 0
+duplicate = []
+no_duplicate = []
+
+while counter < 10:
+    user_input = int(input(f"Enter number {counter +1}/10: "))
+    no_duplicate.append(user_input)
+    counter += 1
+
+for x in no_duplicate:
+    if no_duplicate.count(x) == 1:
+        duplicate.append(x)
+
+print(duplicate)
+
