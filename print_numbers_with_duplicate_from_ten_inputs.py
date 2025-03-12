@@ -1,4 +1,4 @@
-# B4 Prog01: Create a program that ask user to input 10 numbers. Display all numbers that have duplicate.
+# B4 Prog01: Ask 10 user number inputs. Print numbers with duplicate.
 
 """
 Initialize empty lists and needed variables

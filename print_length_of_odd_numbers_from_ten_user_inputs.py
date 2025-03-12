@@ -1,4 +1,4 @@
-# B1 Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
+# B1 Prog08: Ask 10 user number inputs. Print how many are odd numbers.
 
 # Initialize counter and list
 counter = 0

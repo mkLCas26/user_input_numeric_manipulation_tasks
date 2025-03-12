@@ -1,4 +1,4 @@
-# B2 Prog01: Create a program that ask user to input 2 numbers. Print the smaller number.
+# B2 Prog01: Ask 2 user number inputs. Print the smaller number.
 
 # Ask user input
 num1 = int(input("First Number: "))

@@ -1,4 +1,5 @@
-# B3 Prog02: Create a program that ask user to input 10 numbers. Display all numbers. For numbers with duplicate, display only the first entry.
+# B3 Prog02: Ask 10 user number inputs. Display all numbers. 
+# For numbers with duplicate, display only the first entry.
 
 # Initialize counter and empty list
 counter = 0

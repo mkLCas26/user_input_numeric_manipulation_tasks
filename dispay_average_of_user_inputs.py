@@ -1,4 +1,4 @@
-#  B4 Prog05: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the average.
+#  B4 Prog05: Ask user number input until invalid. Display the average.
 
 """
 Initialize empty list or needed variables
@@ -23,7 +23,7 @@ while True:
         for x in numbers:
             average = sum / len(numbers)
         print(f"The current average of your input is: {average}")
-        
+
     except ValueError:
         print(f"Invalid! {user_input} may not be a number or it is a number list.")
         break

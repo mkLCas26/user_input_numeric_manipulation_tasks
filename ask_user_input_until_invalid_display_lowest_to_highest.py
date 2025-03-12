@@ -1,4 +1,5 @@
-# B3 Prog05: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number from lowest to highest. Clue: sort() function
+# B3 Prog05: Ask user number input until invalid. 
+# Print input in descending order. Use sort()
 
 """
 Initialize empty list or variables needed

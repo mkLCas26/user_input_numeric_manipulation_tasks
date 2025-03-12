@@ -1,4 +1,4 @@
-# B1 Prog07: Create a program that ask user to input 10 numbers. Print the sum of all the numbers.
+# B1 Prog07: Ask 10 user number inputs. Print sum of all the numbers.
 
 # Initialize Counter and other variables
 counter = 0

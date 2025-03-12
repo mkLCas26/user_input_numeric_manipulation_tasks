@@ -1,4 +1,4 @@
-# B3 Prog01: Create a program that ask user to input 10 numbers. Display all numbers that don't have duplicate.
+# B3 Prog01: Ask 10 user number inputs. Print numbers with no duplicate.
 
 # Initialize counter and empty list
 counter = 0

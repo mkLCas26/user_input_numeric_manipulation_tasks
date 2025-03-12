@@ -1,4 +1,5 @@
-# B1 Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
+# B1 Prog10: Print all numbers in 0-100 except: 
+# Numbers ending in zero.
 
 # Initialize empty list
 no_zero = []

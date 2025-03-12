@@ -1,4 +1,5 @@
-# B2 Prog09: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero or ending five.
+# B2 Prog09: Print all numbers in 0-100 except: 
+# Numbers ending in zero or ending five.
 
 # Initialize empty list
 no_zero_five = []

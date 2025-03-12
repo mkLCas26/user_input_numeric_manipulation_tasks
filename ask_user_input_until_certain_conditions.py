@@ -1,4 +1,6 @@
-# B3 Prog03: Create a program that ask user to input a number, continue asking until the user input is invalid. Display "Unique" after input when the inputted number don't have duplicate. Display "Duplicate" after input when the inputted number have duplicate.
+# B3 Prog03: Ask user number input until invalid. 
+# Print "Unique" if it has no duplicate
+# Print "Duplicate" if it is a duplicate
 
 """
 Initializing empty lists and needed variables

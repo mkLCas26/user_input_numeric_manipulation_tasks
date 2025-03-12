@@ -1,4 +1,4 @@
-# B4 Prog03: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the highest number
+# B4 Prog03: Ask user number input until invalid. Print highest number.
 
 """
 Initialize empty list or needed variables

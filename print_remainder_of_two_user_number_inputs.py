@@ -1,4 +1,4 @@
-# B2 Prog05: Create a program that ask user to input 2 numbers. Print the remainder when the first number is divided by the second number.
+# B2 Prog05: Ask 2 user number input. Print the remainder.
 
 # Ask user input
 num1 = int(input("First Number: "))
