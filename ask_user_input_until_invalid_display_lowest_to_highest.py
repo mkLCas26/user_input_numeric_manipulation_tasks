@@ -9,3 +9,15 @@ While loop for user input
     Print sorted list
 """
 
+numbers = []
+num = 0
+
+while True: 
+    try:
+        user_input = input("Enter a number: ")
+        num = float(user_input)
+        numbers.append(num)
+        print(numbers)
+
+    except ValueError:
+        print(f"Invalid! {user_input} may not be a number or it is a number list.")
